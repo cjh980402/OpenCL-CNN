@@ -1,7 +1,7 @@
 CC = arm-linux-androideabi-g++
 ADB = adb
 
-OPENCL_PATH = /home/ubuntu/UOS/MPCLASS/FinalProject/OpenCL_lib_and_include
+OPENCL_PATH = /home/ubuntu/UOS/MPCLASS/FinalProject/cpp/OpenCL_lib_and_include
 CFLAG = -I$(OPENCL_PATH)/include -g
 LDFLAGS = -l$(OPENCL_PATH)/lib/libGLES_mali.so -lm
 
